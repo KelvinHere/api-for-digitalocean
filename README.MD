@@ -14,6 +14,15 @@ A Dockerized Django API that returns a random word and its meaning deployable to
 - Automated CI/CD pipeline
 - Postgres database rather than SQLite
 
+## Deployment
+
+- Prerequisites 
+    - Docker
+
+- Clone repo
+- run `docker-compose build`
+- run `docker-compose up`
+
 ## Technologies
 
 Django
