@@ -1,4 +1,5 @@
 .env
+.env.compose
 __pycache__/
 *.sqlite3
 *.pyc
