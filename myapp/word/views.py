@@ -2,6 +2,7 @@ from random import choice
 from django.http import HttpResponse
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.throttling import AnonRateThrottle
 from .models import Word
 from .serializers import WordSerializer
 
@@ -11,6 +12,7 @@ def home(request):
 
 
 class RandomWord(APIView):
+
     ''' Get Random Word '''
     def get(self, request):
         pks = Word.objects.values_list('pk', flat=True)
