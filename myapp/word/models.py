@@ -6,3 +6,9 @@ class Word(models.Model):
 
     def __str__(self):
         return self.word
+
+class APICounter(models.Model):
+    total_requests = models.IntegerField()
+
+    def __str__(self):
+        return self.total_requests
