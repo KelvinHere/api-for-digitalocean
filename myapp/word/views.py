@@ -1,5 +1,6 @@
 from random import choice
 from django.http import HttpResponse
+from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from .models import Word, APICounter
@@ -8,9 +9,25 @@ import datetime
 
 
 def home(request):
-    today = datetime.date.today()
-    requests_today = APICounter.objects.get(date=today)
-    return HttpResponse(f"<b>Random Word Home Page<b> <br><br> Ask for a random word with /word <br><br>Total API requests today: {requests_today}")
+    #today = datetime.date.today()
+    #yesterday = datetime.date.today() - datetime.timedelta(1)
+    requests_dict = {}
+    previous_dates_to_show = 5
+    # Get requests for previous days
+    for i in range(0,previous_dates_to_show):
+        date = datetime.date.today() - datetime.timedelta(i)    
+        try:
+            requests_made = APICounter.objects.get(date=date)
+        except APICounter.DoesNotExist:
+            requests_made = 0
+        requests_dict[str(date)] = requests_made
+    print(requests_dict)
+
+    template = "word/index.html"
+    context = {
+        'requests_dict': requests_dict
+    }
+    return render(request, template, context)
 
 
 class RandomWord(APIView):

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word Home Page</title>
+</head>
+<body>
+    <h1>Random Dictionary Word</h1>
+    <p>This API will give you a random word and its meaning request with /word or press the button below </p>
+    <button type="submit" onclick="location.href='{% url 'word' %}'">RANDOM WORD</button>
+    <br>
+    <br>
+    <p><b>Request History</b></p>
+    {% for date, requests in requests_dict.items %}
+        {{ date }} : {{ requests }} requests
+        <br>
+    {% endfor %}
+</body>
+</html>
