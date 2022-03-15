@@ -4,18 +4,13 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from .models import Word, APICounter
 from .serializers import WordSerializer
+import datetime
 
 
 def home(request):
-    try:
-            api_counter = APICounter.objects.get(pk=1)
-    except APICounter.DoesNotExist:
-            api_counter = APICounter(total_requests=0)
-            api_counter.save()
-    
-    total_requests = api_counter.total_requests
-
-    return HttpResponse(f"<b>Random Word Home Page<b> <br><br> Ask for a random word with /word <br><br>Total API requests: {total_requests}")
+    today = datetime.date.today()
+    requests_today = APICounter.objects.get(date=today)
+    return HttpResponse(f"<b>Random Word Home Page<b> <br><br> Ask for a random word with /word <br><br>Total API requests today: {requests_today}")
 
 
 class RandomWord(APIView):
@@ -28,14 +23,17 @@ class RandomWord(APIView):
         random_word = Word.objects.get(pk=random_pk)
         serializer = WordSerializer(random_word)
 
-        # Update Hit Counter
+        # Record API request date
+        today = datetime.date.today()
         try:
-            api_counter = APICounter.objects.get(pk=1)
+            api_counter = APICounter.objects.get(date=today)
         except APICounter.DoesNotExist:
-            api_counter = APICounter(total_requests=0)
+            api_counter = APICounter.objects.create
             api_counter.save()
 
-        api_counter.total_requests += 1
+        api_counter.requests += 1
         api_counter.save()
+        a = APICounter.objects.get(date=today)
+        print(a.requests)
 
         return Response(serializer.data)

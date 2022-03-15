@@ -1,4 +1,5 @@
 from django.db import models
+import datetime
 
 class Word(models.Model):
     word = models.CharField(max_length=100)
@@ -8,7 +9,8 @@ class Word(models.Model):
         return self.word
 
 class APICounter(models.Model):
-    total_requests = models.IntegerField()
+    requests = models.IntegerField(default=0)
+    date = models.DateField(default=datetime.date.today)
 
     def __str__(self):
-        return self.total_requests
+        return str(self.requests)
