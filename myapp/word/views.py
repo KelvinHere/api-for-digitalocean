@@ -9,8 +9,6 @@ import datetime
 
 
 def home(request):
-    #today = datetime.date.today()
-    #yesterday = datetime.date.today() - datetime.timedelta(1)
     requests_dict = {}
     previous_dates_to_show = 5
     # Get requests for previous days
@@ -21,7 +19,6 @@ def home(request):
         except APICounter.DoesNotExist:
             requests_made = 0
         requests_dict[str(date)] = requests_made
-    print(requests_dict)
 
     template = "word/index.html"
     context = {
@@ -45,12 +42,11 @@ class RandomWord(APIView):
         try:
             api_counter = APICounter.objects.get(date=today)
         except APICounter.DoesNotExist:
-            api_counter = APICounter.objects.create
+            api_counter = APICounter.objects.create()
             api_counter.save()
 
         api_counter.requests += 1
         api_counter.save()
         a = APICounter.objects.get(date=today)
-        print(a.requests)
 
         return Response(serializer.data)
