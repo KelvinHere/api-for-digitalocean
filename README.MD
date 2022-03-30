@@ -41,6 +41,11 @@ DEBUG=FALSE
     * Manual test using POSTMAN
     * Manual test using Python Requests from another website
 
+* Deployment
+    * Test deployment on local development machine
+    * Test docker container on local development machine
+    * Test docker container on remote VPS
+
 ## Technologies
 
 * Docker
