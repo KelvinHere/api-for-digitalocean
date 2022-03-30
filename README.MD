@@ -1,32 +1,52 @@
 # Random Word API
 
-A Dockerized Django API that returns a random word and its meaning deployable to DigitalOcean via docker-compose
+A Dockerized Django REST API that returns a random word and its meaning, deployed to a DigitalOcean VPS using docker-compose.
+
+[LINK TO API HOMEPAGE](http://46.101.13.65:8000)
 
 ## FEATURES
 
 - Call API with /word you will get the word and its meaning
+- Request history displays previous 5 days activity of API
+- API throttle rates set per IP at 60 anonymous requests per hour
 - Static files handled by WhiteNoise
 
 ## Upcoming features
 
-- API call limiter
 - Admin rights to edit, create and delete words
 - Automated CI/CD pipeline
-- Postgres database rather than SQLite
+- Decoupled Postgres database
 
 ## Deployment
 
-- Prerequisites 
-    - Docker
+* Prerequisites
+    * A machine with Docker installed
 
-- Clone repo
-- run `docker-compose build`
-- run `docker-compose up`
+1. Clone the repo
+1. Create a .env.compose file in the project root, populate with 
+``` 
+IN_DOCKER=TRUE
+SECRET_KEY=PLACE_DJANGO_SECRET_KEY_HERE
+DEBUG=FALSE
+```
+3. Build the docker image with ```docker-compose build```
+4. Activate the container with ```docker-compose up```
+5. The website should now be accessible through 'your IP' + :8000 as the port
+
+## Testing
+
+* Retrieving random word
+    * Manual test of homepage buttons
+    * Manual test of IP:8000/word
+    * Manual test using POSTMAN
+    * Manual test using Python Requests from another website
 
 ## Technologies
 
-Django
-DjangoRestFramework
-WhiteNoise
-Gunicorn
-DigitalOcean
+* Docker
+* Docker-Compose
+* Django
+* DjangoRestFramework
+* WhiteNoise
+* Gunicorn
+* DigitalOcean VPS
