@@ -1,8 +1,9 @@
 from random import choice
-from django.http import HttpResponse
+from django.http import QueryDict
 from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework import generics
 from .models import Word, APICounter
 from .serializers import WordSerializer
 import datetime
@@ -45,8 +46,14 @@ class RandomWord(APIView):
             api_counter = APICounter.objects.create()
             api_counter.save()
 
+        # Update API usage
         api_counter.requests += 1
         api_counter.save()
-        a = APICounter.objects.get(date=today)
 
         return Response(serializer.data)
+
+class WordDetail(generics.RetrieveUpdateDestroyAPIView):
+    ''' Retrieve / Update / Destroy Word '''
+    queryset = Word.objects.all()
+    serializer_class = WordSerializer
+    lookup_field = 'id'
