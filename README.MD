@@ -10,6 +10,7 @@ A Dockerized Django REST API that returns a random word and its meaning, deploye
 - Request history displays previous 5 days activity of API
 - API throttle rates set per IP at 60 anonymous requests per hour
 - Static files handled by WhiteNoise
+- Docker sets up Admin & initial user through ```python manage.py ensure_initial_users``` command in the word app securely using environment variables.
 
 ## Upcoming features
 
@@ -23,11 +24,17 @@ A Dockerized Django REST API that returns a random word and its meaning, deploye
     * A machine with Docker installed
 
 1. Clone the repo
-1. Create a .env.compose file in the project root, populate with 
+1. Create a .env.compose file in the project root, populate as below and fill in passwords/emails
 ``` 
 IN_DOCKER=TRUE
 SECRET_KEY=PLACE_DJANGO_SECRET_KEY_HERE
 DEBUG=FALSE
+SU_NAME=ADMIN
+SU_PASS=ADMIN_PASSWORD
+SU_EMAIL=ADMIN_EMAIL
+USER_NAME=USER1
+USER_PASS=USER_PASSWORD
+USER_EMAIL=USER_EMAIL
 ```
 3. Build the docker image with ```docker-compose build```
 4. Activate the container with ```docker-compose up```
