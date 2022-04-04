@@ -144,7 +144,11 @@ REST_FRAMEWORK = {
             'rest_framework.throttling.UserRateThrottle'
         ],
         'DEFAULT_THROTTLE_RATES': {
-            'anon': '60/hour',
-            'user': '100/hour',
+            'anon': '200/hour',
+            'user': '500/hour',
         },
+        'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ]
     }
