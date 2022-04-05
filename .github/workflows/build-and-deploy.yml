@@ -1,12 +1,9 @@
 name: CI
 
-
-# Controls when the workflow will run
 on:
   push:
     branches: [ master ]
 
-# Actions
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -18,17 +15,11 @@ jobs:
           host: ${{ secrets.HOST }}
           password: ${{ secrets.PASSWORD }}
           username: ${{ secrets.USERNAME }}
+          
           script:
-            # Move to work directory
             cd digitalocean
-            
-            # Stop and remove containers
             docker-compose down -v
-            
-            # Get new master branch
             git pull origin master
-            
             docker-compose build
-            
             docker-compose up
             
