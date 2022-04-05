@@ -4,7 +4,7 @@ from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import generics
-from rest_framework.authentication import BasicAuthentication, SessionAuthentication
+from rest_framework.authentication import BasicAuthentication, SessionAuthentication, TokenAuthentication
 from rest_framework.permissions import IsAdminUser, IsAuthenticated
 from .models import Word, APICounter
 from .serializers import WordSerializer
@@ -56,7 +56,7 @@ class RandomWord(APIView):
 
 class WordDetail(generics.RetrieveUpdateDestroyAPIView):
     ''' Retrieve / Update / Destroy Word '''
-    authentication_classes = [BasicAuthentication, SessionAuthentication]
+    authentication_classes = [BasicAuthentication, SessionAuthentication, TokenAuthentication]
     permission_classes = [IsAuthenticated]
     queryset = Word.objects.all()
     serializer_class = WordSerializer
