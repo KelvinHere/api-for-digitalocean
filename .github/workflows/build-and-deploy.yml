@@ -18,8 +18,13 @@ jobs:
           
           script: |
             cd digitalocean
+            echo 'Changed to digital ocean work directory'
             docker-compose down -v
+            echo 'Docker-Compose down'
             git pull origin master
+            echo 'Pulled master from github'
             docker-compose build
+            echo 'Built new image'
             docker-compose up
+            echo 'Image now running'
             
