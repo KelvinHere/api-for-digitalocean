@@ -9,7 +9,7 @@ on:
 # Actions
 jobs:
   deploy:
-    runs-on: ubuntu-latest:
+    runs-on: ubuntu-latest
     if: github.event_name == 'push'
     steps:
       - name: Deploy to Digital Ocean Droplet via SSH
