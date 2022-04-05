@@ -16,7 +16,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           username: ${{ secrets.USERNAME }}
           
-          script:
+          script: |
             cd digitalocean
             docker-compose down -v
             git pull origin master
