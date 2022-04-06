@@ -6,16 +6,17 @@ A Dockerized Django REST API that returns a random word and its meaning, deploye
 
 ## FEATURES
 
-- Call API with /word you will get the word and its meaning
+- Call API with /word you will get the word and its meaning this can be accessed anonymously no authentication needed
+- Update Word / Meaning using token authentication.  POST user name & password to secure a token at ``` /api-token-auth/ ```
 - Request history displays previous 5 days activity of API
-- API throttle rates set per IP at 60 anonymous requests per hour
+- API throttle rates set at N anonymous/logged in requests per hour
 - Static files handled by WhiteNoise
 - Docker sets up Admin & initial user through ```python manage.py ensure_initial_users``` command in the word app securely using environment variables.
+- Automated CI/CD pipeline using Github Actions / Docker Compose / DigitalOcean.
 
 ## Upcoming features
 
-- Admin rights to edit, create and delete words
-- Automated CI/CD pipeline
+- Admin rights to create and delete words
 - Decoupled Postgres database
 
 ## Deployment
@@ -42,11 +43,16 @@ USER_EMAIL=USER_EMAIL
 
 ## Testing
 
-* Retrieving random word
-    * Manual test of homepage buttons
-    * Manual test of IP:8000/word
-    * Manual test using POSTMAN
-    * Manual test using Python Requests from another website
+* Retrieving random word (Manual tests)
+    * Homepage button
+    * IP:8000/word
+    * Get request with POSTMAN
+    * Python Requests library from another website
+
+* Updating word by PK (Manual tests)
+    * Passing valid token & valid JSON payload updates word
+    * Passing invalid token & valid JSON payload get denied
+    * Passing valid token & invalid JSON payload ????
 
 * Deployment
     * Test deployment on local development machine
