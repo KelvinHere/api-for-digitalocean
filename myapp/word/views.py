@@ -1,5 +1,5 @@
 from random import choice
-from django.http import QueryDict
+from django.http import HttpResponse, QueryDict
 from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -8,24 +8,19 @@ from rest_framework.authentication import BasicAuthentication, SessionAuthentica
 from rest_framework.permissions import IsAdminUser, IsAuthenticated
 from .models import Word, APICounter
 from .serializers import WordSerializer
+from .utils import restore_dictionary_function, api_usage_logs
 import datetime
 
 
 def home(request):
-    requests_dict = {}
-    previous_dates_to_show = 5
-    # Get requests for previous days
-    for i in range(0,previous_dates_to_show):
-        date = datetime.date.today() - datetime.timedelta(i)    
-        try:
-            requests_made = APICounter.objects.get(date=date)
-        except APICounter.DoesNotExist:
-            requests_made = 0
-        requests_dict[str(date)] = requests_made
+    # How many days usage logs to show
+    days_to_show = 5
+    api_usage = api_usage_logs(days_to_show)
 
     template = "word/index.html"
     context = {
-        'requests_dict': requests_dict
+        'api_usage': api_usage,
+        'dictionary_restored': False,
     }
     return render(request, template, context)
 
@@ -54,10 +49,37 @@ class RandomWord(APIView):
 
         return Response(serializer.data)
 
-class WordDetail(generics.RetrieveUpdateDestroyAPIView):
+
+class WordDetail(generics.RetrieveUpdateAPIView):
     ''' Retrieve / Update / Destroy Word '''
     authentication_classes = [BasicAuthentication, SessionAuthentication, TokenAuthentication]
     permission_classes = [IsAuthenticated]
     queryset = Word.objects.all()
     serializer_class = WordSerializer
     lookup_field = 'id'
+
+    def put(self, request, *args, **kwargs):
+        instance = self.get_object()
+        instance.edited = True
+        instance.save()
+        return self.update(request, *args, **kwargs)
+    
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        print(instance.edited)
+        serializer = self.get_serializer(instance)
+        return Response(serializer.data)
+
+
+def restore_dictionary(request):
+    restore_dictionary_function()
+    # How many days usage logs to show
+    days_to_show = 5
+    api_usage = api_usage_logs(days_to_show)
+
+    template = "word/index.html"
+    context = {
+        'api_usage': api_usage,
+        'dictionary_restored': True,
+    }
+    return render(request, template, context)

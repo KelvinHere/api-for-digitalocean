@@ -13,9 +13,15 @@
     <br>
     <br>
     <p><b>Request History</b></p>
-    {% for date, requests in requests_dict.items %}
+    {% for date, requests in api_usage.items %}
         {{ date }} : {{ requests }} requests
         <br>
     {% endfor %}
+    <br>
+    <br>
+    <button type="submit" onclick="location.href='{% url 'restore_dictionary' %}'">Restore Dictionary To Original State</button>
+    {% if dictionary_restored == True %}
+    <p>Dictionary restored to original state.  All changes and edits removed.</p>
+    {% endif %}
 </body>
 </html>

@@ -4,7 +4,8 @@
         "pk": 1,
         "fields": {
             "word": "anopheles",
-            "meaning": "A genus of mosquitoes which are secondary hosts of the malaria parasites, and whose bite is the usual, if not the only, means of infecting human beings with malaria. Several species are found in the United States. They may be distinguished from the ordinary mosquitoes of the genus Culex by the long slender palpi, nearly equaling the beak in length, while those of the female Culex are very short. They also assume different positions when resting, Culex usually holding the body parallel to the surface on which it rests and keeping the head and beak bent at an angle, while Anopheles holds the body at an angle with the surface and the head and beak in line with it. Unless they become themselves infected by previously biting a subject affected with malaria, the insects cannot transmit the disease."
+            "meaning": "A genus of mosquitoes which are secondary hosts of the malaria parasites, and whose bite is the usual, if not the only, means of infecting human beings with malaria. Several species are found in the United States. They may be distinguished from the ordinary mosquitoes of the genus Culex by the long slender palpi, nearly equaling the beak in length, while those of the female Culex are very short. They also assume different positions when resting, Culex usually holding the body parallel to the surface on which it rests and keeping the head and beak bent at an angle, while Anopheles holds the body at an angle with the surface and the head and beak in line with it. Unless they become themselves infected by previously biting a subject affected with malaria, the insects cannot transmit the disease.",
+            "edited": false
         }
     },
     {
@@ -12,7 +13,8 @@
         "pk": 2,
         "fields": {
             "word": "uniclinal",
-            "meaning": "See Nonoclinal."
+            "meaning": "See Nonoclinal.",
+            "edited": false
         }
     },
     {
@@ -20,7 +22,8 @@
         "pk": 3,
         "fields": {
             "word": "sarong",
-            "meaning": "A sort of petticoat worn by both sexes in Java and the Malay Archipelago. Balfour (Cyc. of India)"
+            "meaning": "A sort of petticoat worn by both sexes in Java and the Malay Archipelago. Balfour (Cyc. of India)",
+            "edited": false
         }
     },
     {
@@ -28,7 +31,8 @@
         "pk": 4,
         "fields": {
             "word": "turcoman",
-            "meaning": "1. A member of a tribe of Turanians inhabiting a region east of the Caspian Sea. 2. A Turcoman carpet. Turcoman carpet or rug, a kind of carpet or rug supposed to be made by the Turcomans."
+            "meaning": "1. A member of a tribe of Turanians inhabiting a region east of the Caspian Sea. 2. A Turcoman carpet. Turcoman carpet or rug, a kind of carpet or rug supposed to be made by the Turcomans.",
+            "edited": false
         }
     },
     {
@@ -36,7 +40,8 @@
         "pk": 5,
         "fields": {
             "word": "corrugator",
-            "meaning": "A muscle which contracts the skin of the forehead into wrinkles."
+            "meaning": "A muscle which contracts the skin of the forehead into wrinkles.",
+            "edited": false
         }
     },
     {
@@ -44,7 +49,8 @@
         "pk": 6,
         "fields": {
             "word": "self-murder",
-            "meaning": "Suicide."
+            "meaning": "Suicide.",
+            "edited": false
         }
     },
     {
@@ -52,7 +58,8 @@
         "pk": 7,
         "fields": {
             "word": "anacardium",
-            "meaning": "A genus of plants including the cashew tree. See Cashew."
+            "meaning": "A genus of plants including the cashew tree. See Cashew.",
+            "edited": false
         }
     },
     {
@@ -60,7 +67,8 @@
         "pk": 8,
         "fields": {
             "word": "knurly",
-            "meaning": "Full of knots; hard; tough; hence, capable of enduring or resisting much."
+            "meaning": "Full of knots; hard; tough; hence, capable of enduring or resisting much.",
+            "edited": false
         }
     },
     {
@@ -68,7 +76,8 @@
         "pk": 9,
         "fields": {
             "word": "pock",
-            "meaning": "A pustule raised on the surface of the body in variolous and vaccine diseases. Of pokkes and of scab every sore. Chaucer."
+            "meaning": "A pustule raised on the surface of the body in variolous and vaccine diseases. Of pokkes and of scab every sore. Chaucer.",
+            "edited": false
         }
     },
     {
@@ -76,7 +85,8 @@
         "pk": 10,
         "fields": {
             "word": "neuroma",
-            "meaning": "A tumor developed on, or connected with, a nerve, esp. one consisting of new-formed nerve fibers."
+            "meaning": "A tumor developed on, or connected with, a nerve, esp. one consisting of new-formed nerve fibers.",
+            "edited": false
         }
     },
     {
@@ -84,7 +94,8 @@
         "pk": 11,
         "fields": {
             "word": "hawser",
-            "meaning": "A large rope made of three strands each containing many yarns. Note: Three hawsers twisted together make a cable; but it nautical usage the distinction between cable and hawser is often one of size rather than of manufacture. Hawser iron, a calking iron."
+            "meaning": "A large rope made of three strands each containing many yarns. Note: Three hawsers twisted together make a cable; but it nautical usage the distinction between cable and hawser is often one of size rather than of manufacture. Hawser iron, a calking iron.",
+            "edited": false
         }
     },
     {
@@ -92,7 +103,8 @@
         "pk": 12,
         "fields": {
             "word": "jolty",
-            "meaning": "That jolts; as, a jolty coach. [Colloq.]"
+            "meaning": "That jolts; as, a jolty coach. [Colloq.]",
+            "edited": false
         }
     },
     {
@@ -100,7 +112,8 @@
         "pk": 13,
         "fields": {
             "word": "proterandry",
-            "meaning": "The condition of being proterandrous."
+            "meaning": "The condition of being proterandrous.",
+            "edited": false
         }
     },
     {
@@ -108,7 +121,8 @@
         "pk": 14,
         "fields": {
             "word": "leucic",
-            "meaning": "Pertaining to, or designating, an acid obtained from leucin, and called also oxycaproic acid."
+            "meaning": "Pertaining to, or designating, an acid obtained from leucin, and called also oxycaproic acid.",
+            "edited": false
         }
     },
     {
@@ -116,7 +130,8 @@
         "pk": 15,
         "fields": {
             "word": "petrescence",
-            "meaning": "The process of changing into stone; petrification."
+            "meaning": "The process of changing into stone; petrification.",
+            "edited": false
         }
     },
     {
@@ -124,7 +139,8 @@
         "pk": 16,
         "fields": {
             "word": "bathos",
-            "meaning": "A ludicrous descent from the elevated to the low, in writing or speech; anticlimax."
+            "meaning": "A ludicrous descent from the elevated to the low, in writing or speech; anticlimax.",
+            "edited": false
         }
     },
     {
@@ -132,7 +148,8 @@
         "pk": 17,
         "fields": {
             "word": "oblectation",
-            "meaning": "The act of pleasing highly; the state of being greatly pleased; delight. [R.] Feltham."
+            "meaning": "The act of pleasing highly; the state of being greatly pleased; delight. [R.] Feltham.",
+            "edited": false
         }
     },
     {
@@ -140,7 +157,8 @@
         "pk": 18,
         "fields": {
             "word": "overtread",
-            "meaning": "To tread over or upon."
+            "meaning": "To tread over or upon.",
+            "edited": false
         }
     },
     {
@@ -148,7 +166,8 @@
         "pk": 19,
         "fields": {
             "word": "taeniada",
-            "meaning": "Same as T\u00c3\u00a6nioidea."
+            "meaning": "Same as T\u00c3\u00a6nioidea.",
+            "edited": false
         }
     },
     {
@@ -156,7 +175,8 @@
         "pk": 20,
         "fields": {
             "word": "fun",
-            "meaning": "Sport; merriment; frolicsome amusement. \"Oddity, frolic, and fun.\" Goldsmith. To make fan of, to hold up to, or turn into, ridicule."
+            "meaning": "Sport; merriment; frolicsome amusement. \"Oddity, frolic, and fun.\" Goldsmith. To make fan of, to hold up to, or turn into, ridicule.",
+            "edited": false
         }
     },
     {
@@ -164,7 +184,8 @@
         "pk": 21,
         "fields": {
             "word": "mixer",
-            "meaning": "One who, or that which, mixes."
+            "meaning": "One who, or that which, mixes.",
+            "edited": false
         }
     },
     {
@@ -172,7 +193,8 @@
         "pk": 22,
         "fields": {
             "word": "blazer",
-            "meaning": "One who spreads reports or blazes matters abroad. \"Blazers of crime.\" Spenser."
+            "meaning": "One who spreads reports or blazes matters abroad. \"Blazers of crime.\" Spenser.",
+            "edited": false
         }
     },
     {
@@ -180,7 +202,8 @@
         "pk": 23,
         "fields": {
             "word": "elegist",
-            "meaning": "A write of elegies. T. Warton."
+            "meaning": "A write of elegies. T. Warton.",
+            "edited": false
         }
     },
     {
@@ -188,7 +211,8 @@
         "pk": 24,
         "fields": {
             "word": "conspirator",
-            "meaning": "One who engages in a conspiracy; a plotter. 2 Sam. xv. 31."
+            "meaning": "One who engages in a conspiracy; a plotter. 2 Sam. xv. 31.",
+            "edited": false
         }
     },
     {
@@ -196,7 +220,8 @@
         "pk": 25,
         "fields": {
             "word": "logicality",
-            "meaning": "Logicalness."
+            "meaning": "Logicalness.",
+            "edited": false
         }
     },
     {
@@ -204,7 +229,8 @@
         "pk": 26,
         "fields": {
             "word": "quinze",
-            "meaning": "A game at cards in which the object is to make fifteen points."
+            "meaning": "A game at cards in which the object is to make fifteen points.",
+            "edited": false
         }
     },
     {
@@ -212,7 +238,8 @@
         "pk": 27,
         "fields": {
             "word": "wobble",
-            "meaning": "See Wabble."
+            "meaning": "See Wabble.",
+            "edited": false
         }
     },
     {
@@ -220,7 +247,8 @@
         "pk": 28,
         "fields": {
             "word": "dissimulate",
-            "meaning": "Feigning; simulating; pretending. [Obs.] Henryson.\n\nTo dissemble; to feign; to pretend."
+            "meaning": "Feigning; simulating; pretending. [Obs.] Henryson.\n\nTo dissemble; to feign; to pretend.",
+            "edited": false
         }
     },
     {
@@ -228,7 +256,8 @@
         "pk": 29,
         "fields": {
             "word": "hempen",
-            "meaning": "1. Made of hemp; as, a hempen cord. 2. Like hemp. \"Beat into a hempen state.\" Cook."
+            "meaning": "1. Made of hemp; as, a hempen cord. 2. Like hemp. \"Beat into a hempen state.\" Cook.",
+            "edited": false
         }
     },
     {
@@ -236,7 +265,8 @@
         "pk": 30,
         "fields": {
             "word": "yahwe",
-            "meaning": "A modern transliteration of the Hebrew word translated Jehovah in the Bible; -- used by some critics to discriminate the tribal god of the ancient Hebrews from the Christian Jehovah. Yahweh or Yahwe is the spelling now generally adopted by scholars."
+            "meaning": "A modern transliteration of the Hebrew word translated Jehovah in the Bible; -- used by some critics to discriminate the tribal god of the ancient Hebrews from the Christian Jehovah. Yahweh or Yahwe is the spelling now generally adopted by scholars.",
+            "edited": false
         }
     },
     {
@@ -244,7 +274,8 @@
         "pk": 31,
         "fields": {
             "word": "solisequious",
-            "meaning": "Following the course of the sun; as, solisequious plants. [R.] Sir T. Browne."
+            "meaning": "Following the course of the sun; as, solisequious plants. [R.] Sir T. Browne.",
+            "edited": false
         }
     },
     {
@@ -252,7 +283,8 @@
         "pk": 32,
         "fields": {
             "word": "saline",
-            "meaning": "1. Consisting of salt, or containing salt; as, saline particles; saline substances; a saline cathartic. 2. Of the quality of salt; salty; as, a saline taste.\n\nA salt spring; a place where salt water is collected in the earth.\n\n1. (Chem.)  A crude potash obtained from beet-root residues and other similar sources. [Written also salin.] 2. (Med. Chem.)  A metallic salt; esp., a salt of potassium, sodium, lithium, or magnesium, used in medicine."
+            "meaning": "1. Consisting of salt, or containing salt; as, saline particles; saline substances; a saline cathartic. 2. Of the quality of salt; salty; as, a saline taste.\n\nA salt spring; a place where salt water is collected in the earth.\n\n1. (Chem.)  A crude potash obtained from beet-root residues and other similar sources. [Written also salin.] 2. (Med. Chem.)  A metallic salt; esp., a salt of potassium, sodium, lithium, or magnesium, used in medicine.",
+            "edited": false
         }
     },
     {
@@ -260,7 +292,8 @@
         "pk": 33,
         "fields": {
             "word": "grumose",
-            "meaning": "Clustered in grains at intervals; grumous."
+            "meaning": "Clustered in grains at intervals; grumous.",
+            "edited": false
         }
     },
     {
@@ -268,7 +301,8 @@
         "pk": 34,
         "fields": {
             "word": "stalagmite",
-            "meaning": "A deposit more or less resembling an inverted stalactite, formed by calcareous water dropping on the floors of caverns; hence, a similar deposit of other material."
+            "meaning": "A deposit more or less resembling an inverted stalactite, formed by calcareous water dropping on the floors of caverns; hence, a similar deposit of other material.",
+            "edited": false
         }
     },
     {
@@ -276,7 +310,8 @@
         "pk": 35,
         "fields": {
             "word": "sex-",
-            "meaning": "A combining form meaning six; as, sexdigitism; sexennial."
+            "meaning": "A combining form meaning six; as, sexdigitism; sexennial.",
+            "edited": false
         }
     },
     {
@@ -284,7 +319,8 @@
         "pk": 36,
         "fields": {
             "word": "tympanist",
-            "meaning": "One who beats a drum. [R.]"
+            "meaning": "One who beats a drum. [R.]",
+            "edited": false
         }
     },
     {
@@ -292,7 +328,8 @@
         "pk": 37,
         "fields": {
             "word": "faquir",
-            "meaning": "See Fakir."
+            "meaning": "See Fakir.",
+            "edited": false
         }
     },
     {
@@ -300,7 +337,8 @@
         "pk": 38,
         "fields": {
             "word": "old-fashioned",
-            "meaning": "Formed according to old or obsolete fashion or pattern; adhering to old customs or ideas; as, an old-fashioned dress, girl. \"Old-fashioned men of wit.\" Addison. This old-fashioned, quaint abode. Longfellow."
+            "meaning": "Formed according to old or obsolete fashion or pattern; adhering to old customs or ideas; as, an old-fashioned dress, girl. \"Old-fashioned men of wit.\" Addison. This old-fashioned, quaint abode. Longfellow.",
+            "edited": false
         }
     },
     {
@@ -308,7 +346,8 @@
         "pk": 39,
         "fields": {
             "word": "rheumides",
-            "meaning": "The class of skin disease developed by the dartrous diathesis. See under Dartrous."
+            "meaning": "The class of skin disease developed by the dartrous diathesis. See under Dartrous.",
+            "edited": false
         }
     },
     {
@@ -316,7 +355,8 @@
         "pk": 40,
         "fields": {
             "word": "inquisitorial",
-            "meaning": "1. Pertaining to inquisition; making rigorous and unfriendly inquiry; searching; as, inquisitorial power. \"Illiberal and inquisitorial abuse.\" F. Blackburne. He conferred on it a kind of inquisitorial and censorious power even over the laity, and directed it to inquire into all matters of conscience. Hume. 2. Pertaining to the Court of Inquisition or resembling its practices. \"Inquisitorial robes.\" C. Buchanan."
+            "meaning": "1. Pertaining to inquisition; making rigorous and unfriendly inquiry; searching; as, inquisitorial power. \"Illiberal and inquisitorial abuse.\" F. Blackburne. He conferred on it a kind of inquisitorial and censorious power even over the laity, and directed it to inquire into all matters of conscience. Hume. 2. Pertaining to the Court of Inquisition or resembling its practices. \"Inquisitorial robes.\" C. Buchanan.",
+            "edited": false
         }
     },
     {
@@ -324,7 +364,8 @@
         "pk": 41,
         "fields": {
             "word": "pinacate bug",
-            "meaning": "Any of several clumsy, wingless beetles of the genus Eleodes, found in the Pacific States."
+            "meaning": "Any of several clumsy, wingless beetles of the genus Eleodes, found in the Pacific States.",
+            "edited": false
         }
     },
     {
@@ -332,7 +373,8 @@
         "pk": 42,
         "fields": {
             "word": "athletism",
-            "meaning": "The state or practice of an athlete; the characteristics of an athlete."
+            "meaning": "The state or practice of an athlete; the characteristics of an athlete.",
+            "edited": false
         }
     },
     {
@@ -340,7 +382,8 @@
         "pk": 43,
         "fields": {
             "word": "pyronomics",
-            "meaning": "The science of heat."
+            "meaning": "The science of heat.",
+            "edited": false
         }
     },
     {
@@ -348,7 +391,8 @@
         "pk": 44,
         "fields": {
             "word": "vague",
-            "meaning": "1. Wandering; vagrant; vagabond. [Archaic] \"To set upon the vague villains.\" Hayward. She danced along with vague, regardless eyes. Keats. 2. Unsettled; unfixed; undetermined; indefinite; ambiguous; as, a vague idea; a vague proposition. This faith is neither a mere fantasy of future glory, nor a vague ebullition of feeling. I. Taylor. The poet turned away, and gave himself up to a sort of vague revery, which he called thought. Hawthorne. 3. Proceeding from no known authority; unauthenticated; uncertain; flying; as, a vague report. Some legend strange and value. Longfellow. Vague year. See Sothiac year, under Sothiac. Syn. -- Unsettled; indefinite; unfixed; ill-defined; ambiguous; hazy; loose; lax; uncertain.\n\nAn indefinite expanse. [R.] The gray vague of unsympathizing sea. Lowell.\n\nTo wander; to roam; to stray. [Obs.] \"[The soul] doth vague and wander.\" Holland.\n\nA wandering; a vagary. [Obs.] Holinshed."
+            "meaning": "1. Wandering; vagrant; vagabond. [Archaic] \"To set upon the vague villains.\" Hayward. She danced along with vague, regardless eyes. Keats. 2. Unsettled; unfixed; undetermined; indefinite; ambiguous; as, a vague idea; a vague proposition. This faith is neither a mere fantasy of future glory, nor a vague ebullition of feeling. I. Taylor. The poet turned away, and gave himself up to a sort of vague revery, which he called thought. Hawthorne. 3. Proceeding from no known authority; unauthenticated; uncertain; flying; as, a vague report. Some legend strange and value. Longfellow. Vague year. See Sothiac year, under Sothiac. Syn. -- Unsettled; indefinite; unfixed; ill-defined; ambiguous; hazy; loose; lax; uncertain.\n\nAn indefinite expanse. [R.] The gray vague of unsympathizing sea. Lowell.\n\nTo wander; to roam; to stray. [Obs.] \"[The soul] doth vague and wander.\" Holland.\n\nA wandering; a vagary. [Obs.] Holinshed.",
+            "edited": false
         }
     },
     {
@@ -356,7 +400,8 @@
         "pk": 45,
         "fields": {
             "word": "advocacy",
-            "meaning": "The act of pleading for or supporting; work of advocating; intercession."
+            "meaning": "The act of pleading for or supporting; work of advocating; intercession.",
+            "edited": false
         }
     },
     {
@@ -364,7 +409,8 @@
         "pk": 46,
         "fields": {
             "word": "manhead",
-            "meaning": "Manhood. [Obs.] Chaucer."
+            "meaning": "Manhood. [Obs.] Chaucer.",
+            "edited": false
         }
     },
     {
@@ -372,7 +418,8 @@
         "pk": 47,
         "fields": {
             "word": "birdcage",
-            "meaning": "A cage for confining birds."
+            "meaning": "A cage for confining birds.",
+            "edited": false
         }
     },
     {
@@ -380,7 +427,8 @@
         "pk": 48,
         "fields": {
             "word": "reflectible",
-            "meaning": "Capable of being reflected, or thrown back; reflexible."
+            "meaning": "Capable of being reflected, or thrown back; reflexible.",
+            "edited": false
         }
     },
     {
@@ -388,7 +436,8 @@
         "pk": 49,
         "fields": {
             "word": "enfect",
-            "meaning": "Contaminated with illegality. [Obs.] Chaucer."
+            "meaning": "Contaminated with illegality. [Obs.] Chaucer.",
+            "edited": false
         }
     },
     {
@@ -396,7 +445,8 @@
         "pk": 50,
         "fields": {
             "word": "pyrothonide",
-            "meaning": "A kind of empyreumatic oil produced by the combustion of textures of hemp, linen, or cotton in a copper vessel, -- formerly used as a remedial agent. Dunglison."
+            "meaning": "A kind of empyreumatic oil produced by the combustion of textures of hemp, linen, or cotton in a copper vessel, -- formerly used as a remedial agent. Dunglison.",
+            "edited": false
         }
     },
     {
@@ -404,7 +454,8 @@
         "pk": 51,
         "fields": {
             "word": "water feather-foil",
-            "meaning": "The water violet (Hottonia palustris); also, the less showy American plant H. inflata."
+            "meaning": "The water violet (Hottonia palustris); also, the less showy American plant H. inflata.",
+            "edited": false
         }
     },
     {
@@ -412,7 +463,8 @@
         "pk": 52,
         "fields": {
             "word": "pastern",
-            "meaning": "1. The part of the foot of the horse, and allied animals, between the fetlock and the coffin joint. See Illust. of Horse. Note: The upper bone, or phalanx, of the foot is called the great pastern bone; the second, the small pastern bone; and the third, in the hoof, the coffin bone. Pastern joint, the joint in the hoof of the horse, and allied animals, between the great and small pastern bones. 2. A shackle for horses while pasturing. Knight. 3. A patten. [Obs.] Dryden."
+            "meaning": "1. The part of the foot of the horse, and allied animals, between the fetlock and the coffin joint. See Illust. of Horse. Note: The upper bone, or phalanx, of the foot is called the great pastern bone; the second, the small pastern bone; and the third, in the hoof, the coffin bone. Pastern joint, the joint in the hoof of the horse, and allied animals, between the great and small pastern bones. 2. A shackle for horses while pasturing. Knight. 3. A patten. [Obs.] Dryden.",
+            "edited": false
         }
     },
     {
@@ -420,7 +472,8 @@
         "pk": 53,
         "fields": {
             "word": "lenient",
-            "meaning": "1. Relaxing; emollient; softening; assuasive; -- some \"Lenient of grief.\" Milton. Of relax the fibers, are lenient, balsamic. Arbuthnot. Time, that on all things lays his lenient hand. Pope. 2. Mild; clement; merciful; not rigorous or severe; as, a lenient disposition; a lenient judge or sentence.\n\nA lenitive; an emollient."
+            "meaning": "1. Relaxing; emollient; softening; assuasive; -- some \"Lenient of grief.\" Milton. Of relax the fibers, are lenient, balsamic. Arbuthnot. Time, that on all things lays his lenient hand. Pope. 2. Mild; clement; merciful; not rigorous or severe; as, a lenient disposition; a lenient judge or sentence.\n\nA lenitive; an emollient.",
+            "edited": false
         }
     },
     {
@@ -428,7 +481,8 @@
         "pk": 54,
         "fields": {
             "word": "massage",
-            "meaning": "A rubbing or kneading of the body, especially when performed as a hygienic or remedial measure."
+            "meaning": "A rubbing or kneading of the body, especially when performed as a hygienic or remedial measure.",
+            "edited": false
         }
     },
     {
@@ -436,7 +490,8 @@
         "pk": 55,
         "fields": {
             "word": "owler",
-            "meaning": "One who owls; esp., one who conveys contraband goods. See Owling, n. [Obs. or Prov. Eng.] T. Brown."
+            "meaning": "One who owls; esp., one who conveys contraband goods. See Owling, n. [Obs. or Prov. Eng.] T. Brown.",
+            "edited": false
         }
     },
     {
@@ -444,7 +499,8 @@
         "pk": 56,
         "fields": {
             "word": "selenic",
-            "meaning": "Of or pertaining to selenium; derived from, or containing, selenium; specifically, designating those compounds in which the element has a higher valence as contrasted with selenious compounds."
+            "meaning": "Of or pertaining to selenium; derived from, or containing, selenium; specifically, designating those compounds in which the element has a higher valence as contrasted with selenious compounds.",
+            "edited": false
         }
     },
     {
@@ -452,7 +508,8 @@
         "pk": 57,
         "fields": {
             "word": "outnoise",
-            "meaning": "To exceed in noise; to surpass in noisiness. [R.] Fuller."
+            "meaning": "To exceed in noise; to surpass in noisiness. [R.] Fuller.",
+            "edited": false
         }
     }
 ]

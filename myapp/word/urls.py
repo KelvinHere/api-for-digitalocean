@@ -1,10 +1,11 @@
 from django.urls import path
-from .views import RandomWord, home, WordDetail
+from . import views
 from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [
-    path('', home, name='home'),
-    path('word/', RandomWord.as_view(), name='word'),
-    path('word/<int:id>/', WordDetail.as_view()),
+    path('', views.home, name='home'),
+    path('word/', views.RandomWord.as_view(), name='word'),
+    path('word/<int:id>/', views.WordDetail.as_view()),
     path('api-token-auth/', obtain_auth_token, name='api_token_auth'),
+    path('restore-dictionary/', views.restore_dictionary, name='restore_dictionary'),
 ]
