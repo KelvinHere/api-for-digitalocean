@@ -21,5 +21,8 @@ jobs:
             docker-compose down -v
             git pull origin master
             docker-compose build
-            docker-compose up
-            
+      
+      - name: no timeout
+        run: timeout 10 docker-compose up || code=$?; if [[ $code -ne 124 && $code -ne 0 ]]; then exit $code; fi
+      - name: timeout # We add or so that return code is not none-zero which causes pipeline to fail
+        run: timeout 1 docker-compose up || code=$?; if [[ $code -ne 124 && $code -ne 0 ]]; then exit $code; fi
