@@ -68,3 +68,6 @@ USER_EMAIL=USER_EMAIL
 * WhiteNoise
 * Gunicorn
 * DigitalOcean VPS
+
+## Credit
+[Dictionary](https://github.com/matthewreagan/WebstersEnglishDictionary) data taken from [Gutenber Project - a library of over 60,000 free eBooks](https://www.gutenberg.org/)
