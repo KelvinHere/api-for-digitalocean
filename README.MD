@@ -1,6 +1,6 @@
 # Random Word API
 
-A Dockerized Django REST API that returns a random word and its meaning, deployed to a DigitalOcean VPS using docker-compose.
+A Dockerized Django REST API that returns a random word and its meaning, deployed to a DigitalOcean VPS using docker-compose automated by Github Actions.
 
 [LINK TO API HOMEPAGE](http://46.101.13.65:8000)
 
